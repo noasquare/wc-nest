@@ -64,6 +64,10 @@
     consola "^2.3.0"
     node-fetch "^2.3.0"
 
+"@types/bcrypt@^3.0.0":
+  version "3.0.0"
+  resolved "https://registry.npm.taobao.org/@types/bcrypt/download/@types/bcrypt-3.0.0.tgz#851489a9065a067cb7f3c9cbe4ce9bed8bba0876"
+
 "@types/body-parser@*":
   version "1.17.0"
   resolved "https://registry.npm.taobao.org/@types/body-parser/download/@types/body-parser-1.17.0.tgz#9f5c9d9bd04bb54be32d5eb9fc0d8c974e6cf58c"
