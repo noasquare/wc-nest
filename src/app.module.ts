@@ -4,6 +4,7 @@ import { AppController } from './app.controller';
 import { AppService } from './app.service';
 import { PostModule } from './modules/post/post.module';
 import { UserModule } from './modules/user/user.module';
+import { AuthModule } from './modules/auth/auth.module';
 
 @Module({
   imports: [
@@ -19,7 +20,8 @@ import { UserModule } from './modules/user/user.module';
       "entities": [__dirname + '/**/*.entity{.ts,.js}']
     }),
     PostModule,
-    UserModule
+    UserModule,
+    AuthModule
   ],
   controllers: [AppController],
   providers: [AppService],
